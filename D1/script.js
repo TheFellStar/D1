@@ -3,7 +3,7 @@ class Scene1 extends Phaser.Scene {
         super('scene1');
     }
     preload(){
-        this.load.path = './assets/';
+        this.load.path = './D1/assets/';
         this.load.image('Crest_of_Flames', 'Crest_of_Flames.webp');
         this.load.image('background1', 'Video game adventure.jpg');
         this.load.audio('menu_click', 'Menu Click.wav');
@@ -105,7 +105,7 @@ class Scene2 extends Phaser.Scene{
         super('scene2');
     }
     preload(){
-        this.load.path = './assets/';
+        this.load.path = './D1/assets/';
         this.load.image('background2', 'video game ruins.jpg');
     }
     create(){
